@@ -17,6 +17,8 @@
     "typecheck": "npm run hcm && tsc --noEmit"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.5.1",
     "next": "^13.4.13",
     "node-sd-webui": "^0.0.8",
     "react": "^18.2.0",
