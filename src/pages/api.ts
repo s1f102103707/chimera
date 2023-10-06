@@ -15,8 +15,8 @@ const inputData = {
     }, //contentの中で質問の内容を設定する
   ],
 };
-const ranking = 'しかしいいことが一つあった';
-inputData.messages.push({ role: 'user', content: ranking });
+// const ranking = 'しかしいいことが一つあった';
+// inputData.messages.push({ role: 'user', content: ranking });
 
 axios
   .post(apiEndpoint, inputData, {
